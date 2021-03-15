@@ -8,6 +8,7 @@ const run = async () => {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
+  
   let i = 1; 
   SanJose.map(async (v) => {
     console.log(v.name, i);
